@@ -30,4 +30,5 @@ driver.find_element(By.LINK_TEXT,"Sign In").click()
 driver.find_element(By.NAME,"login[username]").send_keys("nikitha979200@gmail.com")
 driver.find_element(By.ID,"pass").send_keys("NIKI2000p")
 driver.find_element(By.XPATH,"//*[@id='send2']").click()
+driver.close()
 
